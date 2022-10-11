@@ -42,9 +42,11 @@ function draw(){
 
     if(ScoreRightWrist > 0.2){
         circle(rWrist_x, rWrist_y, 20);
-        Volume = floor(Math.lWrist_y)/500;
-        music.setVolume(volume)
-        document.getElementById("volume").innerHTML = "Volume = "+Volume;
+        Volume = Number(lWrist_y);
+        Volume_Simple = floor(Volume);
+        Volume_Divided = Volume_Simple/500;
+        music.setVolume(Volume_Divided);
+        document.getElementById("volume").innerHTML = "Volume = "+Volume_Divided;
     }
 }
 
