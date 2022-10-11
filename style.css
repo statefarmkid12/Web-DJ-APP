@@ -1,0 +1,52 @@
+body{
+    background-size: cover;
+}
+
+h1{
+    width: 100%;
+    margin-top: 0%;
+}
+
+p{
+    color: black;
+    font-weight: bold;
+}
+
+.copyright_footer{
+    position: fixed;
+    background-color: plum;
+    line-height: 37px;
+    bottom: 0;
+    width: 100%;
+    font-size: 18px;
+}
+
+.speed{
+    float: left;
+}
+
+.volume{
+    float: right;
+}
+
+img{
+    width: 355px;
+}
+
+.play{
+    margin-top: 27px;
+    width: 200px;
+    font-size: 24px;
+}
+
+.stop{
+    margin-top: 27px;
+    width: 200px;
+    font-size: 24px;
+}
+
+canvas{
+    border-style: ridge;
+    border-radius: 8px;
+    box-shadow: 4px 4px 3px gray;
+}
